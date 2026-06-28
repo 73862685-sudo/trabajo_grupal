@@ -11,8 +11,10 @@ delta = {("q0","a"):"q1",
         ("q2","b"):"q1", 
         ("q3","b"):"q2", 
         ("q4","a"):"q4", 
-        ("q4","b"):"q4"}
-
+        ("q4","b"):"q4",
+        ("q5","b"):"q5",
+        ("q5","b"):"q5",
+        ("q5","a"):"q5",
 q0, F = "q0", {"q4"}
 
 # === Simulación ===
@@ -70,4 +72,3 @@ if __name__=='__main__':
         plt.ioff(); plt.show()
     except Exception as e:
         print("RECHAZA:", e)
-        
